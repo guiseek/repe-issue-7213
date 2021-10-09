@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@workshop/account/data-access": [
+        "libs/account/data-access/src/index.ts"
+      ],
+      "@workshop/account/domain": ["libs/account/domain/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
